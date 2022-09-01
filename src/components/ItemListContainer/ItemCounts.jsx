@@ -1,14 +1,12 @@
 import React, { useState } from "react";
 
-export const ItemCounts = () => {
-  const monitor = {
-    stock: 5,
-  };
+export const ItemCounts = ({stock}) => {
+ 
 
   const [count, setCount] = useState(1);
 
   const onSumar = () => {
-    if (count < monitor.stock) {
+    if (count < stock) {
       setCount(count + 1);
     } else return;
   };
@@ -26,20 +24,22 @@ export const ItemCounts = () => {
           onClick={() => onSumar()}
           type="button"
           className="btn btn-outline-dark"
+          disabled={count !== stock ? false : true}
         >
           +
         </button>
-        <span>{count}</span>
+        <span className="text-black">{count}</span>
         <button
           onClick={() => onRestar()}
           type="button"
           className="btn btn-outline-dark"
+          disabled={count !== 1 ? false : true}
         >
           -
         </button>
       </div>
       <div className="d-grid gap-2">
-        <button className="btn btn-lg btn-primary mt-2" type="button">
+        <button className="btn btn-lg btn-dark mt-2" type="button">
           Agregar al carrito
         </button>
       </div>

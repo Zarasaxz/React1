@@ -1,27 +1,30 @@
-import React from 'react';
-import { ItemCounts } from "./ItemCounts";
-import Monitor from "../../img/Cafetera.webp";
+import { productos } from "./products";
+import { useEffect, useState } from "react";
+import { ItemList } from "./ItemList";
+import "./cards.css";
 
-const ItemListContainer = ({ product, info, description }) => {
-    return (
-        <div className="container w-25">
-        <div className="card-group">
-          <div className="card m-2">
-            <img
-              src={Monitor}
-              className="card-img-top"
-              alt="monitor"
-            />
-            <div className="card-body">
-            <h4 className="card-title">{product}</h4>
-              <h5 className="card-title">{info}</h5>
-              <p className="card-text">{description}</p>
-             <ItemCounts/>
-            </div>
-          </div>
+export const ItemListContainer = () => {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const getData = new Promise((res) => {
+      res(productos);
+    });
+    getData
+      .then((res) => setData(res))
+      .catch((err) => console.error(`Ocurrio el siguiente error: ${err}`));
+  }, []);
+
+  return (
+    <div>
+      <div className="container-md p-5">
+        <div className="row pt-5">
+          <h3 className="text-center pb-5 pt-5 h1"> Productos</h3>
+        </div>
+        <div className="fluid row">
+          <ItemList data={data} />
         </div>
       </div>
-    );
-}
-
-export default ItemListContainer;
+    </div>
+  );
+};
