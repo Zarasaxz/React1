@@ -1,0 +1,122 @@
+export const productDetail = [
+    {
+      id: "1",
+      title: "Placa de Video Zotac RTX 3070 8Gb Gddr6X",
+      price: 183799,
+      img01: "../../assets/Placa.webp",
+      img02: "../../assets/Placa.webp",
+      img03: "../../assets/Placa.webp",
+      stock: 10,
+      category:"placa",
+    },
+    {
+      id: "2",
+      title: "PLACA DE VIDEO PALIT NVIDIA GEFORCE RTX 3090TI GAMEROCK 24GB GDDR6X",
+      price: 410999,
+      img01: "../../assets/Placa2.webp",
+      img02: "../../assets/Placa2.webp",
+      img03: "../../assets/Placa2.webp",
+      stock: 3,
+      category:"placa",
+    },
+    {
+      id: "3",
+      title: "PLACA DE VIDEO GEFORCE GTX 1660TI 6GB MSI GAMING X",
+      price: 71992,
+      img01: "../../assets/Placa3.webp",
+      img02: "../../assets/Placa3.webp",
+      img03: "../../assets/Placa3.webp",
+      stock: 20,
+      category:"placa",
+    },
+    {
+      id: "4",
+      title: "Gabinete Cougar Gemini M Iron Gray",
+      price: 13680,
+      img01: "../../assets/gabinete01.webp",
+      img02: "../../assets/gabinete01-perfil.webp",
+      img03: "../../assets/gabinete01-frente.webp",
+      stock: 5,
+      category:"gabinete"
+    },
+    {
+      id: "5",
+      title: "Gabinete ASUS TUF GT301 ARGB Vidrio Templado",
+      price: 21870,
+      img01: "../../assets/gabinete02.webp",
+      img02: "../../assets/gabinete02-perfil.webp",
+      img03: "../../assets/gabinete02-frente.webp",
+      stock: 5,
+      category:"gabinete"
+    },
+    {
+      id: "6",
+      title: "Gabinete Corsair 7000X ICUE Vidrio Templado White RGB Full Tower",
+      price: 73610,
+      img01: "../../assets/gabinete03.webp",
+      img02: "../../assets/gabinete03-perfil.webp",
+      img03: "../../assets/gabinete03-frente.webp",
+      stock: 5,
+      category:"gabinete"
+    },
+    {
+      id: "7",
+      title: "Teclado Mecanico Redragon SHRAPNEL K589 RGB Switch Blue ESP",
+      price: 8800,
+      img01: "../../assets/teclado01.webp",
+      img02: "../../assets/teclado01-frente.webp",
+      img03: "../../assets/teclado01-perfil.webp",
+      stock: 5,
+      category:"teclado"
+    },
+    {
+      id: "8",
+      title: "Teclado Mecanico Cooler Master CK530 RGB Red Switch US ",
+      price: 13262,
+      img01: "../../assets/teclado02.webp",
+      img02: "../../assets/teclado02-frente.webp",
+      img03: "../../assets/teclado02-perfil.webp",
+      stock: 5,
+      category:"teclado"
+    },
+    {
+      id: "9",
+      title: "Teclado Mecanico ASUS ROG STRIX Scope TKL RGB Cherry MX Brown",
+      price: 20590,
+      img01: "../../assets/teclado03.webp",
+      img02: "../../assets/teclado03-frente.webp",
+      img03: "../../assets/teclado03-perfil.webp",
+      stock: 5,
+      category:"teclado"
+    },
+    {
+      id: "10",
+      title: "Mouse Glorious Model D Minus - Matte Black",
+      price: 7155,
+      img01: "../../assets/mouse01.webp",
+      img02: "../../assets/mouse01-frente.webp",
+      img03: "../../assets/mouse01-perfil.webp",
+      stock: 5,
+      category:"mouse"
+    },
+    {
+      id: "11",
+      title: "Mouse Logitech G502 Gaming Hero High Performance RGB",
+      price: 9000,
+      img01: "../../assets/mouse02.webp",
+      img02: "../../assets/mouse02-frente.webp",
+      img03: "../../assets/mouse02-perfil.webp",
+      stock: 5,
+      category:"mouse"
+    },
+    {
+      id: "12",
+      title: "Mouse ASUS P511 ROG CHAKRAM Core USB RGB 16K DPI",
+      price: 14010,
+      img01: "../../assets/mouse03.webp",
+      img02: "../../assets/mouse03-frente.webp",
+      img03: "../../assets/mouse03-perfil.webp",
+      stock: 5,
+      category:"mouse"
+    },
+  ];

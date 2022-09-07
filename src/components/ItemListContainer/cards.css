@@ -12,3 +12,8 @@
     max-width: 100%;
     height: 300px;
   }
+  .fluid2{
+    display: inline block;
+    max-width: 100%;
+    height: 400px;
+  }

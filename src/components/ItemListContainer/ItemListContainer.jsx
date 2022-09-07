@@ -1,19 +1,26 @@
-import { productos } from "./products";
 import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { productos } from "./products";
 import { ItemList } from "./ItemList";
 import "./cards.css";
 
 export const ItemListContainer = () => {
   const [data, setData] = useState([]);
+  const { categoriaId } = useParams();
 
   useEffect(() => {
     const getData = new Promise((res) => {
       res(productos);
     });
-    getData
-      .then((res) => setData(res))
-      .catch((err) => console.error(`Ocurrio el siguiente error: ${err}`));
-  }, []);
+    if (categoriaId) {
+      getData.then((res) =>
+        setData(res.filter((producto) => producto.category === categoriaId))
+      );
+    } else {
+      getData.then((res) => setData(res));
+    }
+    console.log(data)
+  }, [categoriaId]);
 
   return (
     <div>
@@ -21,7 +28,7 @@ export const ItemListContainer = () => {
         <div className="row pt-5">
           <h3 className="text-center pb-5 pt-5 h1"> Productos</h3>
         </div>
-        <div className="fluid row">
+        <div className="row">
           <ItemList data={data} />
         </div>
       </div>
