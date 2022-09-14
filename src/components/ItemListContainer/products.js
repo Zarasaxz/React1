@@ -5,6 +5,7 @@ export const productos = [
       price: 183799,
       img: "assets/Placa.webp",
       stock: 10,
+      category:"Placa",
     },
     {
       id: "2",
@@ -12,6 +13,7 @@ export const productos = [
       price: 410999,
       img: "assets/Placa2.webp",
       stock: 3,
+      category:"Placa",
     },
     {
       id: "3",
@@ -19,68 +21,7 @@ export const productos = [
       price: 71992,
       img: "assets/Placa3.webp",
       stock: 20,
+      category:"Placa",
     },
-    /*{
-      id: "4",
-      title: "Gabinete",
-      price: 16700,
-      img: "assets/Gabinete.webp",
-      stock: 5,
-    },
-    {
-      id: "5",
-      title: "Gabinete",
-      price: 20420,
-      img: "assets/Gabinete2.webp",
-      stock: 5,
-    },
-    {
-      id: "6",
-      title: "Gabinete",
-      price: 73610,
-      img: "assets/Gabinete3.webp",
-      stock: 5,
-    },
-    {
-      id: "7",
-      title: "Teclado",
-      price: 8100,
-      img: "assets/Teclado.webp",
-      stock: 5,
-    },
-    {
-      id: "8",
-      title: "Teclado",
-      price: 13900,
-      img: "assets/Teclado2.webp",
-      stock: 5,
-    },
-    {
-      id: "9",
-      title: "Teclado",
-      price: 21000,
-      img: "assets/Teclado3.webp",
-      stock: 5,
-    },
-    {
-      id: "10",
-      title: "Mouse",
-      price: 7670,
-      img: "assets/Mouse.webp",
-      stock: 5,
-    },
-    {
-      id: "11",
-      title: "Mouse",
-      price: 5400,
-      img: "assets/Mouse2.webp",
-      stock: 5,
-    },
-    {
-      id: "12",
-      title: "Mouse",
-      price: 13870,
-      img: "assets/Mouse3.webp",
-      stock: 5,
-    },*/
+
   ];

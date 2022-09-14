@@ -7,8 +7,8 @@ export const Item = ({ productos }) => {
       <div className="col-sm-12 col-md-6 col-lg-4">
         <div className="card w-100 card-border mb-5">
           <Link to={`/detalle/${productos.id}`}>
-            <img
-              src={productos.img}
+            <img 
+              src={productos.img01}
               className="card-img-top fluid"
               alt={productos.title}
             />

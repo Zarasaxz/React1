@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { productos } from "./products";
+import { productDetail } from "../ItemDetailContainer/productDetail";
 import { ItemList } from "./ItemList";
 import "./cards.css";
 
@@ -10,7 +10,7 @@ export const ItemListContainer = () => {
 
   useEffect(() => {
     const getData = new Promise((res) => {
-      res(productos);
+      res(productDetail);
     });
     if (categoriaId) {
       getData.then((res) =>
@@ -19,7 +19,7 @@ export const ItemListContainer = () => {
     } else {
       getData.then((res) => setData(res));
     }
-    console.log(data)
+    
   }, [categoriaId]);
 
   return (
