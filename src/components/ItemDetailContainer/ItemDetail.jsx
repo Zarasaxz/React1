@@ -2,12 +2,18 @@ import React, { useState } from "react";
 import { ItemDetailsCarousel } from "./ItemDetailsCarousel";
 import { ItemCounts } from "../ItemListContainer/ItemCounts";
 import { Link } from "react-router-dom";
+import { useCartContext } from "../Cart/CartConst"
 
 export const ItemDetail = ({ data }) => {
   const [goToCart, setGoToCart] = useState(false);
 
-  const onAdd = () => {
+  const { addItem } = useCartContext();
+
+  const onAdd = (quantity) => {
     setGoToCart(true);
+    addItem(data, quantity);
+    let stock = data.stock - quantity
+    data.stock = stock
   };
 
   return (
@@ -45,11 +51,12 @@ export const ItemDetail = ({ data }) => {
                     {goToCart ? (
                       <Link
                         to="/cart"
-                        className="btn btn-lg btn-dark mt-2 "
+                        className="btn btn-sm btn-dark mt-2 "
                         type="button"
                       >
                         Finalizar compra
                       </Link>
+                      
                     ) : (
                       <ItemCounts
                         className="mt-5 p-5"
@@ -57,6 +64,13 @@ export const ItemDetail = ({ data }) => {
                         onClick={onAdd}
                       />
                     )}
+                    <Link
+                        to="/"
+                        className="btn btn-sm btn-dark mt-2 "
+                        type="button"
+                      >
+                       Seguir Comprando
+                      </Link>
                   </div>
                 </div>
               </div>

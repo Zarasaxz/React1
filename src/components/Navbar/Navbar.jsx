@@ -2,7 +2,7 @@ import React from 'react';
 import Form from './Form';
 import { NavLink } from "react-router-dom";
 import './Navbar.css';
-import Cartwidget from '../Cart/Cartwidget';
+import { CartWidget } from "./Cartwidget";
 
 const Navbar = () => {
   return (
@@ -73,7 +73,7 @@ const Navbar = () => {
                 </ul>
               </li>
 
-              <Cartwidget />
+              <CartWidget />
               <Form/>
             </ul>
           </div>
