@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ItemDetailsCarousel } from "./ItemDetailsCarousel";
 import { ItemCounts } from "../ItemListContainer/ItemCounts";
 import { Link } from "react-router-dom";
-import { useCartContext } from "../Cart/CartConst"
+import { useCartContext } from "../Cart/CartContext"
 
 export const ItemDetail = ({ data }) => {
   const [goToCart, setGoToCart] = useState(false);
