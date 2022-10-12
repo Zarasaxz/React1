@@ -17,4 +17,4 @@ Para iniciar la app utilizar el siguiente comando en la consola:
 
 
 
-[<video src="" autoplay">](https://youtu.be/idGwr64FkHQ)
+[<video src="https://youtu.be/idGwr64FkHQ" autoplay">]
