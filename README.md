@@ -15,4 +15,6 @@ Para iniciar la app utilizar el siguiente comando en la consola:
 ### `npm run start`
 
 
-https://youtu.be/idGwr64FkHQ
+
+
+<video src="https://youtu.be/idGwr64FkHQ" autoplay poster="posterimage.jpg">
