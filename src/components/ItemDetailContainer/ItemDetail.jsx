@@ -29,7 +29,7 @@ export const ItemDetail = ({ data, setData }) => {
         <div className="row">
           <div className="col-12">
             <div className="card mb-3">
-              <div className="row g-0">
+              <div className="row">
                 <div className="col-lg-6">
                   <ItemDetailsCarousel data={data} />
                 </div>
@@ -58,7 +58,7 @@ export const ItemDetail = ({ data, setData }) => {
                     {goToCart ? (
                       <Link
                         to="/cart"
-                        className="btn btn-lg btn-dark mt-2 "
+                        className="btn btn-dark mt-2 "
                         type="button"
                       >
                         Finalizar compra
@@ -72,7 +72,7 @@ export const ItemDetail = ({ data, setData }) => {
                     )}
                     <Link
                       to="/"
-                      className="btn btn-lg btn-dark mt-2 "
+                      className="btn btn-dark mt-2 "
                       type="button"
                     >
                       Seguir Comprando

@@ -17,7 +17,7 @@
     "img01": "../assets/Placa2.webp",
     "img02": "../assets/Placa2.webp",
     "img03": "../assets/Placa2.webp",
-    "stock": 3,
+    "stock": 5,
     "category":"placa"
   },
   {
@@ -37,7 +37,7 @@
     "img01": "../assets/gabinete.webp",
     "img02": "../assets/gabinete.webp",
     "img03": "../assets/gabinete.webp",
-    "stock": 5,
+    "stock": 10,
     "category":"gabinete"
   },
   {
@@ -47,7 +47,7 @@
     "img01": "../assets/gabinete2.webp",
     "img02": "../assets/gabinete2.webp",
     "img03": "../assets/gabinete2.webp",
-    "stock": 5,
+    "stock": 10,
     "category":"gabinete"
   },
   {
@@ -57,7 +57,7 @@
     "img01": "../assets/gabinete3.webp",
     "img02": "../assets/gabinete3.webp",
     "img03": "../assets/gabinete3.webp",
-    "stock": 5,
+    "stock": 10,
     "category":"gabinete"
   },
   {
@@ -67,7 +67,7 @@
     "img01": "../assets/Mother.webp",
     "img02": "../assets/Mother.webp",
     "img03": "../assets/Mother.webp",
-    "stock": 5,
+    "stock": 10,
     "category":"motherboard"
   },
   {
@@ -77,7 +77,7 @@
     "img01": "../assets/Mother2.webp",
     "img02": "../assets/Mother2.webp",
     "img03": "../assets/Mother2.webp",
-    "stock": 5,
+    "stock": 10,
     "category":"motherboard"
   },
   {
@@ -87,7 +87,7 @@
     "img01": "../assets/Mother3.webp",
     "img02": "../assets/Mother3.webp",
     "img03": "../assets/Mother3.webp",
-    "stock": 5,
+    "stock": 10,
     "category":"motherboard"
   },
   {

@@ -1,5 +1,4 @@
 import React from 'react';
-//import Form from './Form';
 import { NavLink } from "react-router-dom";
 import './Navbar.css';
 import { CartWidget } from "./Cartwidget";
@@ -25,7 +24,9 @@ const Navbar = () => {
             id="navbarColor02"
           >
             <ul className="navbar-nav w-100 justify-content-evenly">
+            <CartWidget />
               <li className="nav-item">
+                
                 <NavLink className="nav-link" to="/componentes">
                   Productos
                 </NavLink>
@@ -73,7 +74,7 @@ const Navbar = () => {
                 </ul>
               </li>
 
-              <CartWidget />
+
             </ul>
           </div>
         </div>

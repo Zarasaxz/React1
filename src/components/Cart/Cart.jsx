@@ -14,7 +14,7 @@ export const Cart = () => {
           <div class="row">
             <div class="col p-5 m-5">
               <h2>No hay productos seleccionados</h2>
-              <Link to="/"><h3>Ir de compras</h3></Link>
+              <Link to="/"><h3>Buscar</h3></Link>
             </div>
           </div>
         </div>
