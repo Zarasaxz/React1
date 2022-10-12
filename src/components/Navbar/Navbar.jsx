@@ -1,5 +1,5 @@
 import React from 'react';
-import Form from './Form';
+//import Form from './Form';
 import { NavLink } from "react-router-dom";
 import './Navbar.css';
 import { CartWidget } from "./Cartwidget";
@@ -74,7 +74,6 @@ const Navbar = () => {
               </li>
 
               <CartWidget />
-              <Form/>
             </ul>
           </div>
         </div>

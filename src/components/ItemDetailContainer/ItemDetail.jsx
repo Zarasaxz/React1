@@ -1,20 +1,27 @@
 import React, { useState } from "react";
 import { ItemDetailsCarousel } from "./ItemDetailsCarousel";
 import { ItemCounts } from "../ItemListContainer/ItemCounts";
-import { Link } from "react-router-dom";
-import { useCartContext } from "../Cart/CartContext"
+import { Link, useParams } from "react-router-dom";
+import { useCartContext } from "../../context/CartContext"
+import { doc, getFirestore, updateDoc } from "firebase/firestore";
 
-export const ItemDetail = ({ data }) => {
+export const ItemDetail = ({ data, setData }) => {
   const [goToCart, setGoToCart] = useState(false);
-
+  const { detalleId } = useParams();
+  
   const { addItem } = useCartContext();
-
   const onAdd = (quantity) => {
     setGoToCart(true);
     addItem(data, quantity);
-    let stock = data.stock - quantity
-    data.stock = stock
+    data.stock = data.stock - quantity;
   };
+
+  const querydb = getFirestore();
+  const queryDoc  = doc(querydb, 'productos', detalleId);
+  updateDoc(queryDoc,{
+    "stock":data.stock
+  })
+ 
 
   return (
     <>
@@ -51,12 +58,11 @@ export const ItemDetail = ({ data }) => {
                     {goToCart ? (
                       <Link
                         to="/cart"
-                        className="btn btn-sm btn-dark mt-2 "
+                        className="btn btn-lg btn-dark mt-2 "
                         type="button"
                       >
                         Finalizar compra
                       </Link>
-                      
                     ) : (
                       <ItemCounts
                         className="mt-5 p-5"
@@ -65,12 +71,12 @@ export const ItemDetail = ({ data }) => {
                       />
                     )}
                     <Link
-                        to="/"
-                        className="btn btn-sm btn-dark mt-2 "
-                        type="button"
-                      >
-                       Seguir Comprando
-                      </Link>
+                      to="/"
+                      className="btn btn-lg btn-dark mt-2 "
+                      type="button"
+                    >
+                      Seguir Comprando
+                    </Link>
                   </div>
                 </div>
               </div>

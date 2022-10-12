@@ -1,0 +1,124 @@
+[
+
+{
+    "id": "1",
+    "title": "Placa de Video Zotac RTX 3070 8Gb Gddr6X",
+    "price": 183799,
+    "img01": "../assets/Placa.webp",
+    "img02": "../assets/Placa.webp",
+    "img03": "../assets/Placa.webp",
+    "stock": 10,
+    "category":"placa"
+  },
+  {
+    "id": "2",
+    "title": "PLACA DE VIDEO PALIT NVIDIA GEFORCE RTX 3090TI GAMEROCK 24GB GDDR6X",
+    "price": 410999,
+    "img01": "../assets/Placa2.webp",
+    "img02": "../assets/Placa2.webp",
+    "img03": "../assets/Placa2.webp",
+    "stock": 3,
+    "category":"placa"
+  },
+  {
+    "id": "3",
+    "title": "PLACA DE VIDEO GEFORCE GTX 1660TI 6GB MSI GAMING X",
+    "price": 71992,
+    "img01": "../assets/Placa3.webp",
+    "img02": "../assets/Placa3.webp",
+    "img03": "../assets/Placa3.webp",
+    "stock": 20,
+    "category":"placa"
+  },
+  {
+    "id": "4",
+    "title": "Gabinete Gamer Andromeda Atx Vidrio Templado X3 Fan Rgb",
+    "price": 13680,
+    "img01": "../assets/gabinete.webp",
+    "img02": "../assets/gabinete.webp",
+    "img03": "../assets/gabinete.webp",
+    "stock": 5,
+    "category":"gabinete"
+  },
+  {
+    "id": "5",
+    "title": "Gabinete Tecware Flatline Mesh Frontal 4 Coolers Blanco ",
+    "price": 21870,
+    "img01": "../assets/gabinete2.webp",
+    "img02": "../assets/gabinete2.webp",
+    "img03": "../assets/gabinete2.webp",
+    "stock": 5,
+    "category":"gabinete"
+  },
+  {
+    "id": "6",
+    "title": "Gabinete Pc Gamer Thermaltake View 51 Tg Argb Black Gaming",
+    "price": 73610,
+    "img01": "../assets/gabinete3.webp",
+    "img02": "../assets/gabinete3.webp",
+    "img03": "../assets/gabinete3.webp",
+    "stock": 5,
+    "category":"gabinete"
+  },
+  {
+    "id": "7",
+    "title": "Motherboard Asus Prime B460m-a S1200 Intel B460 Hdmi R2.0",
+    "price": 16000,
+    "img01": "../assets/Mother.webp",
+    "img02": "../assets/Mother.webp",
+    "img03": "../assets/Mother.webp",
+    "stock": 5,
+    "category":"motherboard"
+  },
+  {
+    "id": "8",
+    "title": "Mother Asus Prime A320m-k",
+    "price": 13262,
+    "img01": "../assets/Mother2.webp",
+    "img02": "../assets/Mother2.webp",
+    "img03": "../assets/Mother2.webp",
+    "stock": 5,
+    "category":"motherboard"
+  },
+  {
+    "id": "9",
+    "title": "MOTHERBOARD ASUS ROG STRIX Z590-E GAMING WIFI S1200",
+    "price": 56590,
+    "img01": "../assets/Mother3.webp",
+    "img02": "../assets/Mother3.webp",
+    "img03": "../assets/Mother3.webp",
+    "stock": 5,
+    "category":"motherboard"
+  },
+  {
+    "id": "10",
+    "title": "Microprocesador Pc Amd Ryzen 5 4600g 8mb 3.7ghz Socket Am4 100-100000147box 6 Nucleos 12 Hilos",
+    "price": 30155,
+    "img01": "../assets/Procesador.webp",
+    "img02": "../assets/Procesador.webp",
+    "img03": "../assets/Procesador.webp",
+    "stock": 5,
+    "category":"procesador"
+  },
+  {
+    "id": "11",
+    "title": "Procesador AMD Ryzen 7 5700G 100-100000263BOX de 8 núcleos y 4.6GHz de frecuencia con gráfica integrada",
+    "price": 63000,
+    "img01": "../assets/Procesador2.webp",
+    "img02": "../assets/Procesador2.webp",
+    "img03": "../assets/Procesador2.webp",
+    "stock": 5,
+    "category":"procesador"
+  },
+  {
+    "id": "12",
+    "title": "Microprocesador Intel Core I5 12400 20mb 2.50 Ghz Socket 1700 Bx8071512400 12va Generacion Alder Lake",
+    "price": 44010,
+    "img01": "../assets/Procesador3.webp",
+    "img02": "../assets/Procesador3.webp",
+    "img03": "../assets/Procesador3.webp",
+    "stock": 5,
+    "category":"procesador"
+  }
+
+]
