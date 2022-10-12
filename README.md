@@ -1,4 +1,4 @@
-## Ecommerce creado para Reactjs de Coderhouse
+## Ecommerce creado para Reactjs de Coderhouse.
 
 El ecommerce es de una tienda de componentes para armar una computadora.
 
@@ -8,10 +8,14 @@ La app fue hecha con:
 ### `Bootstrap 5`
 ### `Sweetalert2`
 
-## Arrancar la app
+## Arrancar la app.
 
 Para iniciar la app utilizar el siguiente comando en la consola:
 
 ### `npm run start`
 
 
+
+
+## Video demostración de su uso.
+https://youtu.be/idGwr64FkHQ
